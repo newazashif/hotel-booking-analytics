@@ -1,73 +1,155 @@
 # 🏨 Hotel Booking Analytics Dashboard
 
-## 📌 Project Overview
-This project presents an interactive Power BI dashboard built using the Hotel Booking Demand dataset.
-
-The dashboard provides insights into hotel bookings, revenue, customer behavior, and booking cancellations.
+An interactive Business Intelligence dashboard built using **Power BI**, **Power Query**, and **DAX** to analyze hotel booking performance, customer behavior, revenue, and booking cancellations using the Hotel Booking Demand Dataset.
 
 ---
 
-## 🎯 Objectives
+# 📌 Project Overview
 
-- Analyze booking trends
-- Monitor hotel revenue
+This project presents an interactive Power BI dashboard developed using the **Hotel Booking Demand Dataset**.
+
+The dashboard provides valuable business insights through four interactive dashboard pages:
+
+- 📈 Hotel Booking Analysis
+- 💰 Revenue Analysis
+- 👥 Customer & Booking Analysis
+- ❌ Cancellation Analysis
+
+The project demonstrates end-to-end Business Intelligence development, including data cleaning, data modeling, DAX calculations, KPI development, and interactive dashboard design.
+
+---
+
+# 🎯 Objectives
+
+- Analyze hotel booking trends
+- Monitor revenue performance
 - Understand customer behavior
-- Identify cancellation patterns
+- Identify booking cancellation patterns
 - Support business decision-making
 
 ---
 
-## 🛠 Tools Used
+# 🛠 Tools & Technologies
 
-- Power BI
+- Microsoft Power BI
 - Power Query
-- DAX
-- Excel
+- DAX (Data Analysis Expressions)
+- Microsoft Excel
 
 ---
 
-## 📊 Dashboard Pages
+# 💡 Skills Demonstrated
 
-### 1. Executive Dashboard
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Measures
+- KPI Development
+- Interactive Dashboard Design
+- Business Intelligence
+- Data Visualization
+
+---
+
+# 📊 Dashboard Preview
+
+## 🏠 Home Page
+
+![Home](Images/Home%20Page.png)
+
+---
+
+## 📈 Hotel Booking Overview
+
+![Overview](Images/Hotel%20Booking%20Analysis.png)
+
+---
+
+## 💰 Revenue Analysis
+
+![Revenue](Images/Revenue%20Page.png)
+
+---
+
+## 👥 Customer & Booking Analysis
+
+![Customer](Images/Customer%20%26%20Booking%20Analysis.png)
+
+---
+
+## ❌ Cancellation Analysis
+
+![Cancellation](Images/Cancellation%20Analysis.png)
+
+---
+
+# 📈 Key Performance Indicators (KPIs)
+
 - Total Bookings
-- Revenue
-- ADR
+- Total Revenue
 - Total Guests
-- Monthly Trends
-
-### 2. Revenue Analysis
-- Revenue by Country
-- Revenue by Hotel
-- Distribution Channel
-- Market Segment
-
-### 3. Customer & Booking Analysis
-- Room Types
-- Meal Plans
-- Distribution Channels
-- Deposit Types
-- Repeat Guests
-
-### 4. Cancellation Analysis
+- Average ADR
 - Cancellation Rate
-- Deposit Type
-- Market Segment
-- Monthly Cancellation Trend
+- Average Lead Time
+- Average Length of Stay
+- Repeat Guest Percentage
+- Average Special Requests
 
 ---
 
-## 📁 Dataset
+# 📂 Repository Structure
 
-Hotel Booking Demand Dataset
+```
+hotel-booking-analytics/
+│
+├── Images/
+│   ├── Home Page.png
+│   ├── Hotel Booking Analysis.png
+│   ├── Revenue Page.png
+│   ├── Customer & Booking Analysis.png
+│   └── Cancellation Analysis.png
+│
+├── Hotel Booking PBI.pbix
+├── hotel_bookings.csv
+└── README.md
+```
 
 ---
 
-## 👤 Author
+# 📊 Dataset
+
+**Dataset:** Hotel Booking Demand Dataset
+
+The dataset contains hotel reservation records, including:
+
+- Booking information
+- Customer details
+- Hotel type
+- Market segment
+- Distribution channel
+- Lead time
+- ADR
+- Cancellation status
+- Meal plans
+- Deposit types
+
+---
+
+# 🚀 Future Improvements
+
+- Add forecasting visuals
+- Create drill-through reports
+- Add tooltip pages
+- Publish the dashboard using Power BI Service
+
+---
+
+# 👨‍💻 Author
 
 **Md Ashif Newaz**
 
-Mechanical Engineer
+Mechanical Engineer | Aspiring Data Analyst
 
-Aspiring Data Analyst
+Power BI • Power Query • DAX • Excel • SQL • Python
 
-Power BI | Excel | SQL | Python
+GitHub: https://github.com/newazashif
